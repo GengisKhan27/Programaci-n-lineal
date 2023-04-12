@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+	
+	function saltarlinea() {
+
+		document.write("<br><br>");
+
+	}	
+
+	function imprimir(frase) {
+
+		document.write(frase);
+
+	}
+
+	var edadGengis = 29;
+	var edadHermano1 = 34;
+
+	imprimir("nuestra diferencia de edad es:"+ " "+ (edadHermano1 - edadGengis));
+
+	
+
+</script>
