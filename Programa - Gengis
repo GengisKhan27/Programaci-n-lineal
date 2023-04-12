@@ -1,0 +1,105 @@
+<meta charset="UTF-8">
+
+<script> 
+  alert("la edad de Gengis es...")
+  alert ("?")
+
+  	document.write("La edad de Gengis es...<br>");
+  	document.write("<br>");
+  	document.write(29);
+  	document.write("<br>");
+	document.write("29"+"30");
+	document.write("<br>");
+	document.write(29+10);
+	document.write("<br>");
+	document.write(30-15);
+	document.write("<br>");
+	document.write("El promedio de edad de Gengis, Jacser y Petross es...<br>");
+	document.write((29+34+38)/3)
+	document.write("<br>");
+	document.write("La suma de las edades de Gengis, Jacser y petross es...<br>" + (29+34+38));
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("Gengis nació en el año");
+	document.write("<br>");
+	document.write(2022-29);
+	document.write("<br>");
+	document.write("Jacser nació en el año");
+	document.write("<br>");
+	document.write(2022-37);
+	document.write("<br>");
+	document.write("petross nació en el año");
+	document.write("<br>");
+	document.write(2022-35 );
+
+	document.write("<br>");
+	document.write("declaración de variables");
+
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("Gengis tiene: ");
+	document.write("<br>");
+	document.write((2022-1993)+ " años");
+	document.write("<br>");
+	var anho = 2020;
+	document.write("Jacser tiene:");
+	document.write("<br>");
+	document.write((anho-1985) + " años");
+	document.write("<br>");
+	anho=2025
+	document.write("petross tiene:");
+	document.write("<br>");
+	document.write((anho-1988)+" años");
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	anho = 2010
+	document.write("Aracely tiene: " + (anho-1963) + " años")
+	document.write("<br>");
+	document.write("<br>");
+
+	document.write("Tania tiene: " + (anho-1980) + " años")
+	document.write("<br>");
+	document.write("<br>");
+
+	document.write("Sandra tiene: " + (anho-1978) + " años")
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("el promedio de las edades de mi mamá y mis tías es:"+ ((47+30+32)/3) + " años");
+
+	promedio = ((47+30+32)/3)
+	document.write("<br>");
+	document.write("<br>");
+	document.write("el promedio de las edades de mi mamá y mis tías es:"+ Math.round (promedio) + " años");
+
+
+	document.write("<br>");
+	document.write("<br>");
+
+	var edadAracely = 47
+	var edadTania = 30
+	var edadSandra = 32
+	var edadCarolina = 40
+
+	promedio = ((edadAracely+edadSandra+edadTania+edadCarolina)/4)
+	document.write("<br>");
+	document.write("<br>");
+	document.write("el promedio de las edades de mi mamá y mis tías es:"+ Math.round (promedio) + " años");
+
+	document.write("<br>");
+	document.write("<br>");
+
+	var none1= "Aracely"
+	var none2= "Tania"
+	var none3= "Sandra"
+	var none4= "Carolina"
+
+	document.write("la edad de" +" " + none1 + " es" + " "+ edadAracely + " años")
+
+
+</script>
+
